@@ -1,0 +1,265 @@
+header
+{
+background-image: url(./aver.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align:center;
+    color: black;
+}
+body
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white;
+
+
+    margin-left: 60px;
+    margin-right: 60px;
+
+   background-color: rgb(35, 35, 35);
+}
+
+img
+{
+border-radius: 10px;
+width: 500px;
+height: 300px;
+}
+
+#comunidad
+{
+background-color: rgb(255, 98, 0);
+color: black;
+border-radius: 10px;
+text-align: center;
+}
+
+div
+{
+background-color: rgba(255, 0, 0, 0.577);
+border-radius: 10px;
+color: black;
+}
+
+#temas
+{
+margin-left: 10px;
+}
+
+#banderas
+{
+    background-color: rgb(255, 183, 0);
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#trans
+{
+    background-color: rgb(2, 160, 2);
+    color: black;
+    border-radius: 10px;
+}
+
+#bi
+{
+    background-color: rgb(5, 186, 222);
+    color: black;
+    border-radius: 10px;
+}
+
+#les
+{
+    background-color: rgb(121, 5, 222);
+    color: black;
+    border-radius: 10px;
+}
+
+#gay
+{
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+}
+
+#generofluido
+{
+    background-color: rgb(255, 98, 0);
+    color: black;
+    border-radius: 10px;
+}
+
+#asexual
+{
+    background-color:rgb(255, 183, 0);
+    color: black;
+    border-radius: 10px;
+}
+
+#pan
+{
+    background-color: rgb(2, 160, 2);
+    color: black;
+    border-radius: 10px;
+}
+
+#genderqueer
+{
+    background-color:rgb(5, 186, 222);
+    color: black;
+    border-radius: 10px;
+}
+
+#nobinario
+{
+    background-color:rgb(121, 5, 222);
+    color: black;
+    border-radius: 10px;
+}
+
+#diferenciagfynb
+{
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#diferenciapyb
+{
+    background-color:rgb(255, 98, 0);
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer
+{
+    background-color: rgb(255, 183, 0);
+    color: black;
+    border-radius: 10px;
+    
+}
+
+.Card
+{
+    height: 600px;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+}
+
+#imgCard
+{
+   height: 300px;
+   width: 350px;
+}
+
+#contenedorB
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contenedorA
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contenedorN
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media(max-width:550px)
+{/* Celular*/
+body
+{
+    background-color:  rgb(35, 35, 35);
+}
+main, footer{
+    width: 100%;
+}
+#contenedorB
+{
+    display: inline;
+    align-items: center;
+}
+#contenedorA
+{
+    display: inline;
+    align-items: center;
+}
+#contenedorN
+{ 
+    display: inline;
+    align-items: center;
+}
+img
+{
+    border-radius: 10px;
+    width: 370px;
+    height: 170px;
+}
+}
+
+@media(min-width:551px)
+{ /*tablet*/
+body{
+  background-color:  rgb(35, 35, 35);
+}
+main, footer{
+  width: 100%;
+}
+#contenedorB
+{
+   display: inline;
+   align-items: center;
+}
+#contenedorA
+{
+    display: inline;
+    align-items: center;
+} 
+#contenedorN
+{ 
+    display: inline;
+    align-items: center;
+}
+}
+
+@media(min-width:851px)
+{/*computadora de escritorio*/
+body{
+    background-color:  rgb(35, 35, 35);
+}
+main, footer{
+     width: 100%;
+}
+#contenedorB
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#contenedorA
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#contenedorN
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+}
